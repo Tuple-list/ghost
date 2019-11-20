@@ -7,6 +7,8 @@ html, body, div{
 }
 #nav{
   overflow: hidden;
+  margin: 0;
+  padding: 0;
   width: inherit;
   height: 70px;
   background-color: #74b9ff;
