@@ -41,10 +41,10 @@ li[class="one"] a:hover{
 }
 .tool{
     position: relative;
-    left: 0;
-    top: -616px;
-    width: 600px;
-    height: 600px;
+    left: -10vw;
+    top: -197vh;
+    width: 130vw;
+    height: 130vw;
     border-radius: 45%;
     background-color: white;
     animation: wave 20s infinite;
@@ -71,8 +71,8 @@ li[class="one"] a:hover{
 
 .container{
     position: relative;
-    top: -600px;
-    left: 5vh;
+    top: -800px;
+    left: 10vw;
     width: 640px;
     overflow: hidden;
 }
