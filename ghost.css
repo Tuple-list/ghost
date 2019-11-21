@@ -40,10 +40,10 @@ li[class="one"] a:hover{
 }
 .tool{
     position: relative;
-    left: 10px;
-    top: -530px;
-    width: 530px;
-    height: 530px;
+    left: 0;
+    top: -1100px;
+    width: 1090px;
+    height: 1090px;
     border-radius: 45%;
     background-color: white;
     animation: wave 20s infinite;
