@@ -69,9 +69,9 @@ li[class="one"] a:hover{
 }
 
 .container{
-    position: relative;
-    top: -528px;
-    left: 20px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
     width: 700px;
     box-sizing: border-box;
     overflow: hidden;
