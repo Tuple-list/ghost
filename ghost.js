@@ -10,7 +10,7 @@ window.onload = function () {
         timer = setInterval(function () {
             if (isgo == false) {
                 count++;
-                ul_img.style.transform = "translate(" + -640 * count + "px)";
+                ul_img.style.transform = "translate(" + -700 * count + "px)";
                 if (count >= li_img.length - 1) {
                     count = li_img.length - 1;
                     isgo = true;
@@ -18,7 +18,7 @@ window.onload = function () {
             }
             else {
                 count--;
-                ul_img.style.transform = "translate(" + -640 * count + "px)";
+                ul_img.style.transform = "translate(" + -700 * count + "px)";
                 if (count <= 0) {
                     count = 0;
                     isgo = false;
