@@ -14,13 +14,13 @@ body{
   margin: 0;
   padding: 0;
   width: inherit;
-  height: 50px;
+  height: 70px;
   background-color: #74b9ff;
 }
 #nav li{
   float: left;
   margin-left: 5vw;
-  margin-top: 2vh;
+  margin-top: 3px;
   padding: 2px 5px;
   list-style-type: none;
 }
