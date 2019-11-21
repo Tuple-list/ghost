@@ -1,0 +1,93 @@
+html, div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+}
+body{
+    width: auto;
+    height: auto;
+}
+#nav{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #74b9ff;
+}
+#nav li{
+  float: left;
+  margin: 5px 25px;
+  list-style-type: none;
+}
+.one a {
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+}
+li[class="one"] a{
+  cursor: pointer;
+}
+li[class="one"] a:hover{
+  color: gray;
+  border: none;
+}
+.tool{
+    position: relative;
+    left: 10px;
+    top: -530px;
+    width: 530px;
+    height: 530px;
+    border-radius: 45%;
+    background-color: white;
+    animation: wave 20s infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes wave {
+    0%{
+        transform: rotate(0deg) scaleY(1);
+    }
+    25%{
+        transform: rotate(90deg) scaleY(1.1);
+    }
+    50%{
+        transform: rotate(180deg) scaleY(1);
+    }
+    75%{
+        transform: rotate(270deg) scaleY(1.1);
+    }
+    100%{
+        transform: rotate(0deg) scaleY(1);
+    }
+}
+
+.container{
+    position: relative;
+    top: -528px;
+    left: 20px;
+    width: 700px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 50px;
+}
+img{
+    width: 100%;
+}
+.ul_img{
+    width: 90000px;
+    padding: 0px;
+    margin: 0;
+    transition: all 2s;
+}
+.li_img {
+    width: 700px;
+    float: left;
+    list-style: none;
+}
